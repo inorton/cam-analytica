@@ -1,0 +1,35 @@
+removed api keys
+ master
+1 parent 0d34cc9 commit 624536271395ab7329cac482ab1a114384659bfd @MichaelPhillipsData MichaelPhillipsData committed on GitHub Feb 21, 2017
+Unified Split
+Showing 1 changed file  with 6 additions and 6 deletions.
+View 
+12  twitterAnalysis.py
+ @@ -53,11 +53,11 @@ def on_status(self, status):
+ 
+ 
+ if __name__ == '__main__':
+-    #Variables that contains the user credentials to access Twitter API 
+-    consumerKey = 'BSfiAQWf44tc7AvLeMfMqVFld'
+-    consumerSecret = 'Nk0x66OaUrHNn4WjC1KbCP3kUoUe1KvH6dMtgm96IWstzl32Jq'
+-    accessToken = '324214621-bkOFZdKv1X9Rd9pTI6TCk3bsFuAvL1ug2ozZFlKc'
+-    accessTokenSecret = 'grLo38PqPDQyj7dcJH7XlsfRTaqBLtLwaADBPpgaUDwZb'
++    #Variables that contains the user credentials to access Twitter API: these are not real
++    consumerKey = 'BSfiAQWf44tc7'
++    consumerSecret = 'Nk0x66OaUrHNn4WjC'
++    accessToken = '324214621-bkOFZdKv1X9Rd9pTI6TC'
++    accessTokenSecret = 'grLo38PqPDQy'
+     
+     
+     idsFileName = "./data/twitter_ids.csv"
+ @@ -337,4 +337,4 @@ def on_status(self, status):
+                     
+                     
+                     
+-     
++    
+1 comment on commit 6245362
+ @409H
+409H commented on 6245362 Feb 23, 2017
+Consider regenerating your API keys.
+Please sign in to comment.
